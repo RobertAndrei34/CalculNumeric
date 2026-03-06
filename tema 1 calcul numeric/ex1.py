@@ -1,5 +1,4 @@
 # EXERCITIUL 1
-# Determina cel mai mic u = 10^(-m) astfel incat 1.0 + u != 1.0
 
 def machine_epsilon():
     m = 0
@@ -17,7 +16,3 @@ if __name__ == "__main__":
     print(f"m = {m}")
     print(f"u = {u:.20e}")
     print()
-
-    print("Verificari:")
-    print("1.0 + u     =", 1.0 + u)
-    print("1.0 + u/10  =", 1.0 + u/10)
