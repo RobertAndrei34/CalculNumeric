@@ -77,8 +77,7 @@ def tan_polinom_core(x):
     x_4 = x_2 * x_2
     x_6 = x_4 * x_2
 
-    return x + c1*x_3 + c2*(x_3*x_2) + c3*(x_3*x_4) + c4*(x_3*x_6)
-
+    return x + x_3*(c1+(c2*x_2)+(c3*x_4)+(c4*x_6))
 
 # evaluare statistica
 
